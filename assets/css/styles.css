@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Pacifico&family=Playfair+Display&display=swap');
+*{
+    box-sizing: border-box; 
+}
+html, body{
+    height: 100%
+}
+body{
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+.body{
+    padding: 0% 7% 0% 7%;
+    font-family: 'Pacifico', cursive;
+    background-image: url(https://images.unsplash.com/photo-1535079085034-f44d7e20545e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVkJTIwbmVvbiUyMGxpZ2h0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+    color: blanchedalmond;
+    text-shadow: 0rem 0rem 8px hsl(238, 100%, 50%),
+    .3rem .3rem 16px rgb(0, 0, 0);
+}
+.квасс{
+    max-width: 1270px;
+    margin: 0 auto;
+    column-gap: 20px;
+}
+h1 {
+    color: rgba(255, 47, 0, 100);
+    font-size: 5rem;
+    text-align: center;
+}
+
+.h2 {
+    color: rgb(250, 110, 255);
+    font-size: 1.1rem;
+    text-shadow:0rem 0rem 8px rgb(150, 150, 255),
+     .2rem .2rem 4px  rgb(208, 7, 7),
+    0 0 12px rgb(247, 100, 255),
+     0 0 16px rgb(255, 50, 163),
+      0 0 18px rgb(221, 0, 255);
+}
+
+.h3 {
+    color: blanchedalmond;
+}
+
+h4 {
+    color: blanchedalmond;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.intruduction {
+    font-size: 22px;
+}
+.kindergarden{
+    background: rgb(111, 100, 255);
+    color: rgb(250, 110, 255);
+    display: flex;
+    padding: 0% 7% 0% 7%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.kindergarden i{
+    transition: all 0.5s linear;
+    text-shadow: none;
+}
+.kindergarden i:hover{
+    text-shadow: 0 0 4px  rgb(255, 235, 205),
+    0 0 8px rgb(150, 255, 188),
+    0 0 12px rgb(152, 255, 100),
+    0 0 16px rgb(245, 255, 50),
+    0 0 18px rgb(255, 0, 0);
+    color: #fff;
+}
+.pedophile{
+    background: rgb(250, 110, 255, 0);
+    color: rgb(111, 100, 255);
+    border-radius: 10px;
+    text-align: center;
+    transition: all 2s linear;
+}
+.pedophile a{
+    transition: all 0.5s linear;
+    text-shadow: none;
+}
+.pedophile a:hover{
+    text-shadow: 0 0 4px  rgb(255, 235, 205),
+    0 0 8px rgb(150, 255, 188),
+    0 0 12px rgb(152, 255, 100),
+     0 0 16px rgb(245, 255, 50),
+      0 0 18px rgb(255, 0, 0);
+      color: #fff;
+}
+.pedophile:hover{
+    background: rgb(250, 110, 255, 0.3);
+}
+.mustage{
+    color:rgb(103, 3, 46);
+    font-family: 'Pacifico', cursive;
+}
+.social_media{
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+}
+.rogue{
+    color: rgb(111, 100, 255);
+}
+.container {
+    color: blanchedalmond;
+    text-align: center;
+    background: rgb(250, 110, 255);
+    width: 100%;
+    border-radius: 10px;
+}
+.gay_container {
+    color: blanchedalmond;
+    text-align: center;
+    background: rgb(250, 110, 255);
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.header {
+    background: rgb(250, 110, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-family:'Pacifico', cursive;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: rgb(111, 100, 255);
+    transition: all 2s linear;
+}
+
+nav ul li a:hover {
+    background: rgb(111, 100, 255);
+    color: blanchedalmond;
+    box-shadow:.2rem .2rem 8px rgb(150, 150, 255),
+    .2rem .2rem 12px rgb(111, 100, 255),
+    .2rem .2rem 16px rgb(59, 50, 255),
+    1px 1px 1px rgb(255, 0, 68),
+    .2rem .2rem 4px  rgb(0, 0, 0);
+}
+.toggle-icon{
+    font-size:40px;
+    color: rgb(111, 100, 255);
+}
+.header_toggle{
+    color: blanchedalmond;
+    text-align: center;
+    background: rgb(250, 110, 255);
+    width: 100%;
+    border-radius: 10px;
+    display: none;
+} 
+.logo {
+    background: rgb(111, 100, 255);
+    box-shadow: .3rem .3rem 13px hsl(0, 0%, 0%);
+    padding: 5px;
+    border-radius: 3px;
+    font-family: 'Pacifico', cursive;
+}
+
+.Роман {
+    background: rgb(60, 60, 60);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.квасс {
+    background: rgb(111, 100, 255);
+    color: blanchedalmond;
+    height: 30%;
+    font-size: 100%;
+    width:30%;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px;
+    transition: all 0.5s linear;
+}
+
+.квасс:hover {
+    background: blanchedalmond;
+    color: rgb(111, 100, 255);
+    transform: scale(1.1);
+    box-shadow: 0 0 20px  rgb(255, 235, 205),
+    0 0 20px rgb(150, 150, 255),
+    0 0 20px rgb(9, 130, 23),
+     0 0 20px rgb(255, 1, 238),
+      0 0 20px rgb(20, 0, 255, 1);
+      text-shadow: 0 0 4px  rgb(255, 235, 205),
+      0 0 8px rgb(173, 173, 240),
+      0 0 12px rgb(180, 234, 201),
+       0 0 16px rgb(59, 50, 255),
+        0 0 18px rgb(20, 0, 255, 1);
+}
+
+.Roman {
+    color: rgb(111, 100, 255);
+    font-size: 1.5rem;
+}
+.gay_Roman {
+    color: rgb(111, 100, 255);
+    font-size: 1.5rem;
+}
+.rofl {
+    background: rgb(60, 60, 60);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+}
+.Главная {
+    background: rgb(111, 100, 255);
+    color:blanchedalmond;
+}
+.Главная:hover {
+    background: white;
+    color: rgb(111, 100, 255);
+}
+.jeblan {
+    background: blanchedalmond;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+.main{
+    background: rgb(60, 60, 60);
+    text-align: center;
+}
+
+.mainscreen_container{
+    width:100%;
+    height:800px;
+}
+.mainscreen_img{
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    content: ""
+}
+.arrows{
+    font-size: 2.5rem;
+    color: rgb(255, 99, 71, 0);
+    transition: all 3s linear;
+}
+.arrows:hover{
+    color: rgb(111, 100, 255);
+    width: 40px;
+    text-shadow: 0 0 4px  rgb(255, 235, 205),
+    0 0 8px rgb(150, 150, 255),
+    0 0 12px rgb(111, 100, 255),
+     0 0 16px rgb(59, 50, 255),
+      0 0 18px rgb(20, 0, 255, 1);
+    
+}
+.wine{
+    display: flex;
+    text-align: center;
+    font-family:'Pacifico', cursive;
+}
+.wine p{
+    display: inline-block;
+    background: rgb(111, 100, 255);
+    border-radius: 15px;
+    color: rgb(250, 1, 255);
+    padding: 15px;
+    transition: all 0.7s linear;
+}
+.wine:hover p{
+    transform: scale(1.1);
+    text-shadow: 0 0 4px  rgb(255, 235, 205),
+    0 0 8px rgb(150, 150, 255),
+    0 0 12px rgb(111, 100, 255),
+     0 0 16px rgb(59, 50, 255),
+      0 0 18px rgb(20, 0, 255, 1);
+}
+.agusha{
+    display: flex;
+    text-align: center;
+    font-family:'Pacifico', cursive;
+}
+.agusha p{
+    display: inline-block;
+    background: rgb(225, 126, 21);
+    border-radius: 15px;
+    color: rgb(0, 4, 123);
+    padding: 15px;
+    transition: all 0.7s linear;
+}
+.agusha:hover p{
+    transform: scale(1.1);
+    text-shadow: 0 0 4px  rgb(255, 235, 205),
+    0 0 8px rgb(150, 150, 255),
+    0 0 12px rgb(111, 100, 255),
+     0 0 16px rgb(59, 50, 255),
+      0 0 18px rgb(20, 0, 255, 1);
+}
+.honey{
+    display: flex;
+    text-align: center;
+    font-family:'Pacifico', cursive;
+}
+.honey p{
+    display: inline-block;
+    background: rgb(255, 229, 100);
+    border-radius: 15px;
+    color: rgb(0, 169, 25);
+    padding: 15px;
+    transition: all 0.7s linear;
+}
+.honey:hover p{
+    transform: scale(1.1);
+    text-shadow: 0 0 4px  rgb(255, 235, 205),
+    0 0 8px rgb(150, 150, 255),
+    0 0 12px rgb(111, 100, 255),
+     0 0 16px rgb(59, 50, 255),
+      0 0 18px rgb(20, 0, 255, 1);
+}
+.vodka{
+    display: flex;
+    text-align: center;
+    font-family:'Pacifico', cursive;
+}
+.vodka p{
+    display: inline-block;
+    background: rgb(17, 237, 204);
+    border-radius: 15px;
+    color: rgb(133, 13, 13);
+    padding: 15px;
+    transition: all 0.7s linear;
+}
+.vodka:hover p{
+    transform: scale(1.1);
+    text-shadow: 0 0 4px  rgb(255, 235, 205),
+    0 0 8px rgb(150, 150, 255),
+    0 0 12px rgb(111, 100, 255),
+     0 0 16px rgb(59, 50, 255),
+      0 0 18px rgb(20, 0, 255, 1);
+}
+.burger{
+    font-size: 6.5rem;
+}
+
+.burger_text{
+    transition: all 1s linear;
+    text-align: center;
+}
+
+.burger_text:hover{
+    transform: scale(1.1);
+    text-shadow: 0 0 4px  rgb(255, 235, 205),
+    0 0 8px rgb(150, 150, 255),
+    0 12px 12px rgb(12, 7, 81),
+     0 0 16px rgb(59, 50, 255),
+      0 0 18px rgb(20, 0, 255, 1);
+}
+.burger_text:hover .burger{
+    animation: moyTada 1.5s ease infinite;
+}
+.wine{
+    justify-content: center;
+}
+.vodka{
+    justify-content: center;
+}
+.honey{
+    justify-content: center;
+}
+.agusha{
+    justify-content: center;
+}
+
+
+
+
+@keyframes moyTada{
+    0%{
+        transform: scale3d(1,1,1);
+    }
+    10%, 20%{
+        transform: scale3d(.95,.95,.95) rotate3d(0,0,1,-10deg);
+    }
+    30%, 50%, 70%, 90%{
+        transform: scale3d(1,1,1) rotate3d(0,0,1,10deg);
+    }
+    40%, 60%, 80%{
+        transform: rotate3d(0,0,1, -10deg);
+    }
+    100%{
+        transform: scale3d(1,1,1);
+    }
+}
+@media screen and (max-width: 768px){
+    .header_toggle{
+        display:block;
+        text-align: center;
+    }
+    .nav ul li{
+        margin-bottom: 60px;
+        border-bottom: 3px solid rgb(255, 0, 0);
+        margin-left: 10px;
+    }
+    .gay_container{
+        position:fixed;
+        top: 0;
+        left:-100%;
+        width:60%;
+        height:100%;
+        z-index:100;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        background-color: rgb(111, 100, 255);
+        padding: 60px 0 60px 0;
+        text-shadow: none;
+        transition:all 1.550s cubic-bezier(1, 1, 1, 1);
+        text-align: left;
+        font-size:30px;
+    }
+    .gay_container ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .gay_Roman{
+        content: none;
+    }
+    .nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li a{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(133, 13, 13);
+    }
+    .show-menu{
+        left:0;
+    }
+}
+
